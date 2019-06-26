@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yangnan.blog.dao.MemberMapper">
+
+    <resultMap id="BaseResultMap" type="com.yangnan.blog.entity.Member">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="phone" property="phone" jdbcType="VARCHAR"/>
+
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="role" property="role" jdbcType="TINYINT"/>
+        <result column="jurisdiction" property="jurisdiction" jdbcType="TINYINT"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"/>
+        <result column="is_del" property="isDel" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,`name`,password,role,jurisdiction,create_time,update_time,is_del
+    </sql>
+
+    <update id="updateMember" parameterType="com.yangnan.blog.entity.Member">
+        update member
+        <set>
+            <if test="name != null and name != '' ">
+                name = #{name},
+            </if>
+            <if test="password != null and password != '' ">
+                password = #{password},
+            </if>
+            <if test="role != null and role != '' ">
+                role = #{role},
+            </if>
+            <if test="jurisdiction != null and jurisdiction != '' ">
+                jurisdiction = #{jurisdiction}
+            </if>
+        </set>
+        where is_del = 0 and id = #{id}
+    </update>
+    <select id="getMemberByPhone" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from member where phone = #{phone} and is_del =0
+    </select>
+    <insert id="addMember" parameterType="com.yangnan.blog.entity.Member">
+        insert into member
+        (name,password)
+        values
+        (#{name}, #{password})
+    </insert>
+</mapper>

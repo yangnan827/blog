@@ -11,4 +11,12 @@ public interface MemberService {
      * @return
      */
     Member login(AbstractBaseRequest abstractBaseRequest);
+
+    /**
+     * 获取头像
+     *
+     * @param abstractBaseRequest
+     * @return
+     */
+    String getHeadUri(AbstractBaseRequest abstractBaseRequest);
 }

@@ -10,4 +10,6 @@ public interface InnerMemberService {
      * @return
      */
     Member login(Member member);
+
+    String getHeadUri(String phone);
 }

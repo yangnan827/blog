@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fecf76a-b5fd-4deb-9324-5a6a4ac2c9a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/OSSRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/OSSResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/OSSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/OSSServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/OSSController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/yangnan/blog/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/com/yangnan/blog/entity/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/META-INF/web.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/OSSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/OSSUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yangnan/blog/constant/Constant$DecimalConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yangnan/blog/constant/Constant$DecimalConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yangnan/blog/constant/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yangnan/blog/constant/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yangnan/blog/utils/OSSUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yangnan/blog/utils/OSSUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/yangnan/blog/entity/Member$MemberBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/yangnan/blog/entity/Member$MemberBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/yangnan/blog/entity/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/yangnan/blog/entity/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/target/classes/mapper/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/mapper/MemberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/InnerMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/InnerMemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/yangnan/blog/inner/InnerMemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/yangnan/blog/inner/InnerMemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/yangnan/blog/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/yangnan/blog/service/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/yangnan/blog/service/impl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/yangnan/blog/service/impl/MemberServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,33 +43,86 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/dev/application.properties">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/MemberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/pro/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/yangnan/blog/entity/Member.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="684">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1064">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/OSSUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/OSSController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/OSSServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+              <folding>
+                <element signature="e#2783#2784#0" expanded="true" />
+                <element signature="e#2810#2811#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/OSSService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/OSSResponse.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/OSSRequest.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -79,12 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/dao/pom.xml" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/service/pom.xml" />
-        <option value="$PROJECT_DIR$/cache/pom.xml" />
         <option value="$PROJECT_DIR$/dto/pom.xml" />
         <option value="$PROJECT_DIR$/message/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/WebApplication.java" />
@@ -102,34 +168,40 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/NumberScaleFormat.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/result/ResultBuilder.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/NumberUtils.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/OSSUtil.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/PasswordUtil.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/SendResponseUtil.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/StringUtil.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/StrMaskUtil.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/result/MessageResult.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/regex/RegexMatches.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/redis/RedisUtil.java" />
         <option value="$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/MemberCache.java" />
         <option value="$PROJECT_DIR$/cache/src/main/java/blog/MemberCache.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/InnerMemberService.java" />
         <option value="$PROJECT_DIR$/cache/src/main/java/com/yangnan/blog/MemberCache.java" />
         <option value="$PROJECT_DIR$/cache/src/main/java/com/yangnan/blog/impl/MemberCacheImpl.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/yangnan/blog/dao/MemberMapper.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/AbstractBaseRequest.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/MemberServiceImpl.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/helper/DESedeHelper.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/helper/ArgsCheckUtil.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/MemberService.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/interceptor/ParamParseInterceptor.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/dev/application.properties" />
         <option value="$PROJECT_DIR$/web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/controller/MemberController.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/resources/mapper/MemberMapper.xml" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/yangnan/blog/entity/Member.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/mapper/MemberMapper.xml" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/InnerMemberService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/OSSRequest.java" />
+        <option value="$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/OSSResponse.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/OSSServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/OSSService.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/OSSUtil.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/OSSServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/OSSController.java" />
       </list>
     </option>
   </component>
@@ -192,25 +264,25 @@
             <path>
               <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -218,7 +290,42 @@
             <path>
               <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -227,12 +334,68 @@
             <path>
               <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="inner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,7 +410,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561550364752" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561556167232" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -258,11 +421,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yangnan.blog.interceptor" />
+      <recent name="com.yangnan.blog.service" />
+      <recent name="com.yangnan.blog.service.impl" />
       <recent name="com.yangnan.blog" />
+      <recent name="com.yangnan.blog.interceptor" />
       <recent name="blog" />
-      <recent name="com.yangnan.blog.constant" />
-      <recent name="com.yangnan.blog.regex" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog" />
@@ -307,7 +470,7 @@
       <workItem from="1561283842855" duration="32000" />
       <workItem from="1561342033352" duration="2859000" />
       <workItem from="1561529443688" duration="386000" />
-      <workItem from="1561543936445" duration="1122000" />
+      <workItem from="1561543936445" duration="5928000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1561544000918</created>
@@ -316,15 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561544000918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="加头像字段">
+      <created>1561550467333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561550467333</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19911000" />
+    <option name="totallyTimeSpent" value="24717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -334,7 +503,7 @@
       <window_info id="Designer" order="5" />
       <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.17553614" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.11581292" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.100965105" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
@@ -345,7 +514,7 @@
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.06458797" />
-      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.4224202" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.46622124" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -401,60 +570,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="加头像字段" />
+    <option name="LAST_COMMIT_MESSAGE" value="加头像字段" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/OSSServiceImpl.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/IDWorkerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="34" column="76" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/exception/BusinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/CipherUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/NumberScaleFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/result/ResultBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/OperatorReportJsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/NumberUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="699">
@@ -462,13 +593,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/OSSUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="53" column="102" selection-start-line="53" selection-start-column="102" selection-end-line="53" selection-end-column="102" />
         </state>
       </provider>
     </entry>
@@ -494,13 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="441" column="23" selection-start-line="441" selection-start-column="23" selection-end-line="441" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -574,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/InnerMemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/AbstractBaseRequest.java" />
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/helper/AESedeHelper.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -594,9 +704,6 @@
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/helper/BooleanAsStringSerializer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/AbstractBaseRequest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/helper/DESedeHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3753">
@@ -608,16 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="541" column="47" lean-forward="true" selection-start-line="541" selection-start-column="47" selection-end-line="541" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -648,16 +745,6 @@
     <entry file="file://$PROJECT_DIR$/blogs.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/MemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12692">
@@ -686,24 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/mapper/MemberMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -724,10 +797,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/mapper/MemberMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/yangnan/blog/entity/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/pro/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -738,13 +828,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/yangnan/blog/entity/Member.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/MemberService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="380">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/InnerMemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/OSSRequest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/OSSResponse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/OSSServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/OSSService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/OSSUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dto/src/main/java/com/yangnan/blog/AbstractBaseRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/service/impl/OSSServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding>
+            <element signature="e#2783#2784#0" expanded="true" />
+            <element signature="e#2810#2811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/OSSController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
         </state>
       </provider>
     </entry>

@@ -24,11 +24,10 @@ import java.util.Date;
 @Slf4j
 public class OSSUtil {
 
-    private static final String endpoint = "oss-cn-hangzhou.aliyuncs.com";
-    private static final String endpointInternal = "oss-cn-hangzhou-internal.aliyuncs.com";
-    private static final String accessKeyId = "LTAIFiOp18JMvdN5";
-    private static final String accessKeySecret = "vQdhTYnGGtTVLr75iLYdFtrnh6Uxdk";
-    private static final String bucketName = "fkrisk";
+    private static final String endpoint = "oss-cn-beijing.aliyuncs.com";
+    private static final String accessKeyId = "LTAI9dplqI3ye7d9";
+    private static final String accessKeySecret = "izD4jt6Yl8RtprY5Omvp9uXKguELAj";
+    private static final String bucketName = "yangnanblog";
 
     public static OSSClient client;
 
@@ -39,13 +38,13 @@ public class OSSUtil {
         client = new OSSClient(endpoint, credentialsProvider, clientConfiguration);
     }
 
-    public static String uploadFile(String orgId, String originalFileName, InputStream fileStream) throws BusinessException {
+    public static String uploadFile(String originalFileName, InputStream fileStream) throws BusinessException {
         // isOrgIdValid(orgId);
         try {
             // combine oss object key
             int extensionStartIndex = originalFileName.lastIndexOf('.');
             String fileExtension = extensionStartIndex == -1 ? "" : originalFileName.substring(extensionStartIndex);
-            String key = (orgId == null ? "" : orgId + '/') + IDWorkerUtil.getID() + fileExtension;
+            String key = ("blog" + '/') + IDWorkerUtil.getID() + fileExtension;
             // save original file name to metadata
             ObjectMetadata metadata = new ObjectMetadata();
             metadata.setUserMetadata(Collections.singletonMap("originalFileName", originalFileName));

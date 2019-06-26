@@ -7,6 +7,7 @@ public interface Constant {
      * 空白显示
      */
     String SYSTEM_BLANK_SYMBOL = "-";
+    String PARAMEYTER = "参数错误！";
 
     /**
      * 掩码符号
@@ -28,6 +29,7 @@ public interface Constant {
         int MAX = 100;
 
     }
+
     interface DecimalConstants {
         BigDecimal ONE_HUNDRED_BIG_DECIMAL = new BigDecimal(100);
         BigDecimal TEN_THOUSAND_BIG_DECIMAL = new BigDecimal(10000);
@@ -46,4 +48,14 @@ public interface Constant {
         String OSS_DOWNLOAD_ERROR_MSG = "下载失败，请重试！";
 
     }
+
+    interface Member {
+        String NOT_MEMBER = "没有此用户！";
+        String ACCOUNT_PASSWORD_WRONG = "账号或密码错误！";
+        /**
+         * 默认头像
+         */
+        String DEDAULT_HEAR_URL = "";
+    }
+
 }

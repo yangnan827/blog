@@ -16,6 +16,7 @@ public class Member {
     private String name;
     private String phone;
     private String password;
+    private String headUrl;
     private Integer role;
     private Integer jurisdiction;
     private Integer isDel;

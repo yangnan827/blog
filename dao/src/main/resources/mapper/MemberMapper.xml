@@ -8,6 +8,7 @@
         <result column="phone" property="phone" jdbcType="VARCHAR"/>
 
         <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="head_url" property="headUrl" jdbcType="VARCHAR"/>
         <result column="role" property="role" jdbcType="TINYINT"/>
         <result column="jurisdiction" property="jurisdiction" jdbcType="TINYINT"/>
         <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
@@ -16,7 +17,7 @@
     </resultMap>
 
     <sql id="Base_Column_List">
-        id,`name`,password,role,jurisdiction,create_time,update_time,is_del
+        id,`name`,password,head_url,role,jurisdiction,create_time,update_time,is_del
     </sql>
 
     <update id="updateMember" parameterType="com.yangnan.blog.entity.Member">
@@ -24,6 +25,9 @@
         <set>
             <if test="name != null and name != '' ">
                 name = #{name},
+            </if>
+            <if test="headUrl != null and headUrl != '' ">
+                head_url = #{headUrl},
             </if>
             <if test="password != null and password != '' ">
                 password = #{password},

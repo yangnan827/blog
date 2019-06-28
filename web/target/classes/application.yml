@@ -30,26 +30,26 @@ spring:
       poolPreparedStatements: true
       maxOpenPreparedStatements: 3
       connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-  redis:
-    jedis:
-      pool:
-        max-active: -1
-        max-idle: -1
-    port: 6380
-    host: 172.16.59.243
-    password: 
+#  redis:
+#    jedis:
+#      pool:
+#        max-active: -1
+#        max-idle: -1
+#    port: ${redis.port}
+#    host: ${redis.host}
+#    password: ${redis.password}
   http:
     encoding:
       force: true
       charset: UTF-8
       enabled: true
-  data:
-    mongodb:
-      database: admin
-      host: 172.16.59.243
-      port: 27017
-      username: loan
-      password: Haohan@123
+#  data:
+#    mongodb:
+#      database: ${mongodb.database}
+#      host: ${mongodb.host}
+#      port: ${mongodb.port}
+#      username: ${mongodb.username}
+#      password: ${mongodb.password}
   servlet:
     multipart:
       max-file-size: 1GB
@@ -74,7 +74,7 @@ expire:
   validate.code: 60
   login.user: 3600
 
-env: pro
+env: dev
 project: /blog/
 
 logging:

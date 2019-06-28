@@ -1,3 +1,4 @@
+/*
 package com.yangnan.blog.mongodb;
 
 import lombok.Data;
@@ -22,17 +23,21 @@ public class MongoUtil implements InitializingBean {
     private static final int DEFAULT_SKIP = 0;
     private static final int DEFAULT_LIMIT = 200;
 
-    /**
+    */
+/**
      * spring mongodb　集成操作类
-     */
+     *//*
+
     @Autowired
     protected MongoTemplate mongoTemplate;
 
-    /**
+    */
+/**
      * 通过条件查询实体(集合)
      *
      * @param query
-     */
+     *//*
+
     public <T> List<T> find(Query query, Class<T> clazz) {
         return mongoTemplate.find(query, clazz);
     }
@@ -41,12 +46,14 @@ public class MongoUtil implements InitializingBean {
         return mongoTemplate.find(query, clazz, collectionName);
     }
 
-    /**
+    */
+/**
      * 通过一定的条件查询一个实体
      *
      * @param query
      * @return
-     */
+     *//*
+
     public <T> T findOne(Query query, Class<T> clazz) {
         return mongoTemplate.findOne(query, clazz);
     }
@@ -55,13 +62,15 @@ public class MongoUtil implements InitializingBean {
         return mongoTemplate.findOne(query, clazz, collectionName);
     }
 
-    /**
+    */
+/**
      * 通过条件查询更新数据
      *
      * @param query
      * @param update
      * @return
-     */
+     *//*
+
     public void update(Query query, Update update) {
         mongoTemplate.findAndModify(query, update, this.getEntityClass());
     }
@@ -76,12 +85,14 @@ public class MongoUtil implements InitializingBean {
         mongoTemplate.remove(query, collectionName);
     }
 
-    /**
+    */
+/**
      * 保存一个对象到mongodb
      *
      * @param entity
      * @return
-     */
+     *//*
+
     public <T> T save(T entity) {
         mongoTemplate.insert(entity);
         return entity;
@@ -92,34 +103,40 @@ public class MongoUtil implements InitializingBean {
         return entity;
     }
 
-    /**
+    */
+/**
      * 通过ID获取记录
      *
      * @param id
      * @return
-     */
+     *//*
+
     public <T> T findById(String id, Class<T> clazz) {
         return mongoTemplate.findById(id, clazz);
     }
 
-    /**
+    */
+/**
      * 通过ID获取记录,并且指定了集合名(表的意思)
      *
      * @param id
      * @param collectionName 集合名
      * @return
-     */
+     *//*
+
     public <T> T findById(String id, String collectionName, Class<T> clazz) {
         return mongoTemplate.findById(id, clazz, collectionName);
     }
 
-    /**
+    */
+/**
      * 分页查询
      *
      * @param page
      * @param query
      * @return
-     */
+     *//*
+
     public <T> Page<T> findPage(Page<T> page, Query query, Class<T> clazz) {
         long count = this.count(query);
         page.setTotal(count);
@@ -143,12 +160,14 @@ public class MongoUtil implements InitializingBean {
         return page;
     }
 
-    /**
+    */
+/**
      * 求数据总和
      *
      * @param query
      * @return
-     */
+     *//*
+
     public long count(Query query) {
         return mongoTemplate.count(query, this.getEntityClass());
     }
@@ -158,11 +177,13 @@ public class MongoUtil implements InitializingBean {
     }
 
 
-    /**
+    */
+/**
      * 获取需要操作的实体类class
      *
      * @return
-     */
+     *//*
+
     private Class getEntityClass() {
         Type superclass = this.getClass().getGenericSuperclass();
         Type[] actualTypeArguments = ((ParameterizedType) superclass).getActualTypeArguments();
@@ -187,3 +208,4 @@ public class MongoUtil implements InitializingBean {
 
     }
 }
+*/

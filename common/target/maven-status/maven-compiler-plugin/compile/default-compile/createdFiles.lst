@@ -20,6 +20,7 @@ com/yangnan/blog/utils/LocalDateTimeUtils.class
 com/yangnan/blog/helper/MD5Helper.class
 com/yangnan/blog/result/DataResult$DataResultBuilder.class
 com/yangnan/blog/result/Result.class
+com/yangnan/blog/constant/Constant$Member.class
 com/yangnan/blog/constant/Constant$PageSizeLimit.class
 com/yangnan/blog/constant/Constant.class
 com/yangnan/blog/result/FailedResult.class
@@ -28,7 +29,6 @@ com/yangnan/blog/utils/FormatUtil$MoneyType.class
 com/yangnan/blog/result/AbstractResult.class
 com/yangnan/blog/helper/ArgsCheckUtil.class
 com/yangnan/blog/result/ResultBuilder.class
-com/yangnan/blog/mongodb/MongoUtil$Page.class
 com/yangnan/blog/utils/PathUtil.class
 com/yangnan/blog/result/SuccessResult.class
 com/yangnan/blog/result/Message.class
@@ -49,7 +49,6 @@ com/yangnan/blog/constant/Constant$RedisKeyPrefix.class
 com/yangnan/blog/utils/LocalCache$ExpireTask.class
 com/yangnan/blog/utils/ListUtil.class
 com/yangnan/blog/helper/JsonAsStringDeserializer.class
-com/yangnan/blog/redis/RedisUtil.class
 com/yangnan/blog/utils/IDWorker.class
 com/yangnan/blog/helper/AESedeHelper.class
 com/yangnan/blog/utils/RsaConst.class
@@ -58,7 +57,6 @@ com/yangnan/blog/utils/DateUtil$1.class
 com/yangnan/blog/utils/Money.class
 com/yangnan/blog/utils/RsaCodingUtil.class
 com/yangnan/blog/constant/Constant$OssConstants.class
-com/yangnan/blog/mongodb/MongoUtil.class
 com/yangnan/blog/result/ReMessage.class
 com/yangnan/blog/exception/errorcode/InternalErrorCode.class
 com/yangnan/blog/result/MessageResult$3.class

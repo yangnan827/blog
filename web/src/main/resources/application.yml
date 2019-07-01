@@ -78,7 +78,7 @@ env: ${blog.env}
 project: ${project}
 
 logging:
-  level: INFO
+  level:
     org:
       mongodb:
         driver: error

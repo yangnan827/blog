@@ -1,7 +1,8 @@
 package com.yangnan.blog.utils;
 
-
+import com.yangnan.blog.constant.Constant;
 import com.yangnan.blog.exception.BusinessException;
+import com.yangnan.blog.redis.RedisUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,7 +11,7 @@ import org.slf4j.LoggerFactory;
  */
 public class IDWorkerUtil {
     private static final Logger log = LoggerFactory.getLogger(IDWorkerUtil.class);
-    //    public static RedisUtil redisUtil;
+    public static RedisUtil redisUtil;
     private static IDWorker worker;
 
     static {
@@ -30,8 +31,7 @@ public class IDWorkerUtil {
             return String.valueOf(worker.nextId());
         } catch (InterruptedException e) {
             try {
-//                return String.valueOf(redisUtil.incr(Constant.RedisKeyPrefix.PLUS_ONE_KEY, 1));
-                return null;
+                return String.valueOf(redisUtil.incr(Constant.RedisKeyPrefix.PLUS_ONE_KEY, 1));
             } catch (Exception e1) {
                 throw new BusinessException("Redis plus one occur ERROR ");
             }

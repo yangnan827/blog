@@ -28,7 +28,8 @@ public class AuthenticateInterceptor implements HandlerInterceptor {
 
     // 添加跳过验证的uri至此
     private static List<String> skipAuthUris = Arrays.asList(
-            "/login"
+            "/test",
+            "/member/login"
     );
     @Resource
     private MemberCache memberCache;

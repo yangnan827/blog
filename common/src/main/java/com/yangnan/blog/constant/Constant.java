@@ -7,6 +7,7 @@ public interface Constant {
      * 空白显示
      */
     String SYSTEM_BLANK_SYMBOL = "-";
+
     String PARAMEYTER = "参数错误！";
 
     /**
@@ -56,17 +57,20 @@ public interface Constant {
         /**
          * 默认头像
          */
-        String DEDAULT_HEAR_URL = "";
-        // token redis 标示
-        String TOKEN = "token%s";
+        String DEDAULT_HEAR_URL = "http://yangnanblog.oss-cn-beijing.aliyuncs.com/blog/1012046262222962688.jpg?Expires=1719825111&OSSAccessKeyId=LTAI9dplqI3ye7d9&Signature=sfaQgWk2%2BPIO4yVnUptWF%2BGMlRg%3D";
 
-        // token过期时间(秒)
-        long TOKEN_EXPIRES_TIME_IN_SECONDS = 60 * 30;
+
     }
 
     interface LoginConstants {
         // token错误提示语
         String TOKEN_WRONG_MSG = "请重新登录！";
+
+        // token redis 标示
+        String TOKEN = "token%s";
+
+        // token过期时间(秒)
+        long TOKEN_EXPIRES_TIME_IN_SECONDS = 60 * 30;
     }
 
 }

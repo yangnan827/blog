@@ -20,8 +20,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static com.yangnan.blog.constant.Constant.Member.TOKEN;
-import static com.yangnan.blog.constant.Constant.Member.TOKEN_EXPIRES_TIME_IN_SECONDS;
+import static com.yangnan.blog.constant.Constant.LoginConstants.TOKEN;
+import static com.yangnan.blog.constant.Constant.LoginConstants.TOKEN_EXPIRES_TIME_IN_SECONDS;
 
 @Slf4j
 public class AuthenticateInterceptor implements HandlerInterceptor {

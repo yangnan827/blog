@@ -15,6 +15,8 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.Objects;
 
+import static com.yangnan.blog.constant.Constant.LoginConstants.TOKEN;
+import static com.yangnan.blog.constant.Constant.LoginConstants.TOKEN_EXPIRES_TIME_IN_SECONDS;
 import static com.yangnan.blog.constant.Constant.Member.*;
 
 @Service

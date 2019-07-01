@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3735121e-c097-4803-94b5-fe6ee232fc50" name="Default Changelist" comment="放行必要测试接口">
+    <list default="true" id="3735121e-c097-4803-94b5-fe6ee232fc50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/interceptor/AuthenticateInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/interceptor/AuthenticateInterceptor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -28,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/controller/MemberController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -45,17 +48,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="290">
+              <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="371">
+              <caret line="59" column="206" selection-start-line="59" selection-start-column="206" selection-end-line="59" selection-end-column="206" />
             </state>
           </provider>
         </entry>
@@ -76,11 +79,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/interceptor/AuthenticateInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="895">
-              <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+            <state relative-caret-position="693">
+              <caret line="89" column="125" lean-forward="true" selection-start-line="89" selection-start-column="125" selection-end-line="89" selection-end-column="125" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="117" column="40" lean-forward="true" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -122,10 +134,11 @@
         <option value="$PROJECT_DIR$/cache/src/main/java/com/yangnan/blog/impl/MemberCacheImpl.java" />
         <option value="$PROJECT_DIR$/dao/src/main/resources/mapper/MemberMapper.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/result/MessageResult.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/interceptor/LogInterceptor.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/interceptor/AuthenticateInterceptor.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java" />
       </list>
     </option>
   </component>
@@ -174,6 +187,51 @@
             <path>
               <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +302,7 @@
       <workItem from="1561699443171" duration="12792000" />
       <workItem from="1561802391479" duration="2921000" />
       <workItem from="1561947360046" duration="470000" />
-      <workItem from="1561948580315" duration="13172000" />
+      <workItem from="1561948580315" duration="13996000" />
     </task>
     <task id="LOCAL-00001" summary="修改线上数据库连接问题">
       <created>1561703590602</created>
@@ -337,14 +395,22 @@
       <option name="project" value="LOCAL" />
       <updated>1561970609034</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加gitignore文件">
+      <created>1561971734183</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561971734184</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29355000" />
+    <option name="totallyTimeSpent" value="30179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15210484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -357,15 +423,15 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27023014" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15738678" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22865628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.12546399" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.07423905" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.28285077" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.14402376" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32962137" />
@@ -425,7 +491,8 @@
     <MESSAGE value="登陆功能添加token 并编写拦截器每次刷新token值" />
     <MESSAGE value="添加每个接口日志记录时间和必要参数" />
     <MESSAGE value="放行必要测试接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="放行必要测试接口" />
+    <MESSAGE value="添加gitignore文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加gitignore文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/utils/OSSUtil.java">
@@ -697,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/redis/RedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-286">
@@ -748,20 +808,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/interceptor/AuthenticateInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/controller/MemberController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -783,17 +833,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="780">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yangnan/blog/inner/impl/InnerMemberServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="290">
+          <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="117" column="40" lean-forward="true" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yangnan/blog/interceptor/AuthenticateInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="89" column="125" lean-forward="true" selection-start-line="89" selection-start-column="125" selection-end-line="89" selection-end-column="125" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yangnan/blog/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="59" column="206" selection-start-line="59" selection-start-column="206" selection-end-line="59" selection-end-column="206" />
         </state>
       </provider>
     </entry>

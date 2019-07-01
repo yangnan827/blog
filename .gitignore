@@ -45,3 +45,13 @@ service/target/
 web/target/
 
 target/
+cache/src/main/resources/
+cache/src/test/
+common/src/main/resources/
+common/src/test/
+dao/src/test/
+dto/src/main/resources/
+dto/src/test/
+message/src/
+service/src/test/
+web/src/test/

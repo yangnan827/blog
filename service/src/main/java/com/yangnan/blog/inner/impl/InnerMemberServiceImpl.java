@@ -35,7 +35,7 @@ public class InnerMemberServiceImpl implements InnerMemberService {
             String token = member.getId() + member.getPhone() + randomNumber;
             String tokenMD5 = SecureUtil.md5(token);
             // redis存放token并设置时间为半个小时
-            redisUtil.set(TOKEN + member.getPhone(), tokenMD5, TOKEN_EXPIRES_TIME_IN_SECONDS);
+            redisUtil.set(String.format(TOKEN, member.getPhone()), tokenMD5, TOKEN_EXPIRES_TIME_IN_SECONDS);
 
             return LoginResponse.builder()
                     .memberId(members.getId())

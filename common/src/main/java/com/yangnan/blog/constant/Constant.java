@@ -58,7 +58,7 @@ public interface Constant {
          */
         String DEDAULT_HEAR_URL = "";
         // token redis 标示
-        String TOKEN = "token";
+        String TOKEN = "token%s";
 
         // token过期时间(秒)
         long TOKEN_EXPIRES_TIME_IN_SECONDS = 60 * 30;

@@ -20,7 +20,7 @@ spring:
       max-active: 400
       initialSize: 200
       maxWait: 60000
-      minIdle: 200
+      minIdle: 5
       timeBetweenEvictionRunsMillis: 60000
       minEvictableIdleTimeMillis: 300000
       validationQuery: select 'x'
@@ -58,7 +58,7 @@ spring:
     enabled: false
 
 mybatis:
-  mapper-locations: classpath*:mapper/**/*Mapper.xml
+  mapper-locations: classpath*:mapper/**/*Mapper.xmlide
   type-aliases-package: com.yangnan.blog.entity
   type-handlers-package: com.yangnan.blog.mybatis
   configuration:

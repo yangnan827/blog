@@ -18,4 +18,9 @@ public class MemberController {
     public Result checkAlreadyAllocated(@RequestBody AbstractBaseRequest abstractBaseRequest) {
         return ResultBuilder.execute(() -> memberService.login(abstractBaseRequest));
     }
+    @PostMapping("/getHeadUri")
+    public Result getHeadUri(@RequestBody AbstractBaseRequest abstractBaseRequest) {
+        return ResultBuilder.execute(() -> memberService.getHeadUri(abstractBaseRequest));
+    }
+
 }

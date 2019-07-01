@@ -1,4 +1,4 @@
-package com.yangnan.blog;
+package com.yangnan.blog.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

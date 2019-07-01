@@ -1,6 +1,6 @@
 package com.yangnan.blog.service;
 
-import com.yangnan.blog.OSSResponse;
+import com.yangnan.blog.response.OSSResponse;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

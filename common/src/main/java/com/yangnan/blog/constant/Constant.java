@@ -51,11 +51,22 @@ public interface Constant {
 
     interface Member {
         String NOT_MEMBER = "没有此用户！";
+
         String ACCOUNT_PASSWORD_WRONG = "账号或密码错误！";
         /**
          * 默认头像
          */
         String DEDAULT_HEAR_URL = "";
+        // token redis 标示
+        String TOKEN = "token";
+
+        // token过期时间(秒)
+        long TOKEN_EXPIRES_TIME_IN_SECONDS = 60 * 30;
+    }
+
+    interface LoginConstants {
+        // token错误提示语
+        String TOKEN_WRONG_MSG = "请重新登录！";
     }
 
 }

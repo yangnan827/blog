@@ -2,6 +2,7 @@ package com.yangnan.blog.service;
 
 import com.yangnan.blog.AbstractBaseRequest;
 import com.yangnan.blog.entity.Member;
+import com.yangnan.blog.response.LoginResponse;
 
 public interface MemberService {
     /**
@@ -10,7 +11,7 @@ public interface MemberService {
      * @param abstractBaseRequest
      * @return
      */
-    Member login(AbstractBaseRequest abstractBaseRequest);
+    LoginResponse login(AbstractBaseRequest abstractBaseRequest);
 
     /**
      * 获取头像

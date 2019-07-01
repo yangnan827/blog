@@ -9,4 +9,6 @@ public interface MemberCache {
 
     Member getMemberByPhone(String phone);
 
+    Member getMemberById(Integer id);
+
 }

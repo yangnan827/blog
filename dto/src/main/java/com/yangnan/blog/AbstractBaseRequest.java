@@ -25,8 +25,8 @@ public class AbstractBaseRequest {
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class RequestParamHeader {
         private String token;
-        private String memberId;
-        private String roleId;
+        private Integer memberId;
+        private Integer roleId;
 
     }
 

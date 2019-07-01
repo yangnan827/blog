@@ -1,9 +1,9 @@
 package com.yangnan.blog.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.yangnan.blog.OSSRequest;
-import com.yangnan.blog.OSSResponse;
 import com.yangnan.blog.exception.BusinessException;
+import com.yangnan.blog.request.OSSRequest;
+import com.yangnan.blog.response.OSSResponse;
 import com.yangnan.blog.service.OSSService;
 import com.yangnan.blog.utils.OSSUtil;
 import lombok.extern.slf4j.Slf4j;

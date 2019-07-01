@@ -46,6 +46,11 @@
         <include refid="Base_Column_List"/>
         from member where phone = #{phone} and is_del =0
     </select>
+    <select id="getMemberById" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from member where id = #{id} and is_del =0
+    </select>
     <insert id="addMember" parameterType="com.yangnan.blog.entity.Member">
         insert into member
         (name,password)

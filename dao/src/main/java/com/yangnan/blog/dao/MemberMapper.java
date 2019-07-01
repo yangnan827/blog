@@ -11,4 +11,6 @@ public interface MemberMapper {
     int addMember(Member member);
 
     Member getMemberByPhone(String phone);
+
+    Member getMemberById(Integer id);
 }

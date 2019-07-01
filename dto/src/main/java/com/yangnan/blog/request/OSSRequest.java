@@ -1,4 +1,4 @@
-package com.yangnan.blog;
+package com.yangnan.blog.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

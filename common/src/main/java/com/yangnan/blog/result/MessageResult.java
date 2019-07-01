@@ -2,6 +2,7 @@ package com.yangnan.blog.result;
 
 
 import com.alibaba.fastjson.JSON;
+import com.yangnan.blog.constant.Constant;
 
 
 public enum MessageResult implements Message {
@@ -23,6 +24,12 @@ public enum MessageResult implements Message {
         @Override
         public Result<Object> result(Object data) {
             return new FailedResult(new ReMessage(this.getCode(), this.getCodeMsg(), this.getUserMsg()), data);
+        }
+    },
+    TokenWrong1(4, "token wrong", Constant.LoginConstants.TOKEN_WRONG_MSG) {
+        @Override
+        public Result<Object> result(Object data) {
+            return new FailedResult(new ReMessage(this.getCode(), this.getCodeMsg(), this.getUserMsg()));
         }
     },
     ;

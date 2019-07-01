@@ -27,4 +27,8 @@ public class MemberCacheImpl implements MemberCache {
         return memberMapper.getMemberByPhone(phone);
     }
 
+    @Override
+    public Member getMemberById(Integer id) {
+        return memberMapper.getMemberById(id);
+    }
 }

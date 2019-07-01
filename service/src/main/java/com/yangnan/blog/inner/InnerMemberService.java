@@ -1,6 +1,7 @@
 package com.yangnan.blog.inner;
 
 import com.yangnan.blog.entity.Member;
+import com.yangnan.blog.response.LoginResponse;
 
 public interface InnerMemberService {
     /**
@@ -9,7 +10,7 @@ public interface InnerMemberService {
      * @param member
      * @return
      */
-    Member login(Member member);
+    LoginResponse login(Member member);
 
     String getHeadUri(String phone);
 }

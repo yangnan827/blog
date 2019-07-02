@@ -57,9 +57,7 @@ public interface Constant {
         /**
          * 默认头像
          */
-        String DEDAULT_HEAR_URL = "http://yangnanblog.oss-cn-beijing.aliyuncs.com/blog/1012046262222962688.jpg?Expires=1719825111&OSSAccessKeyId=LTAI9dplqI3ye7d9&Signature=sfaQgWk2%2BPIO4yVnUptWF%2BGMlRg%3D";
-
-
+        String DEDAULT_HEAR_URL = "http://yangnanblog.oss-cn-beijing.aliyuncs.com/blog/1012416703503749120.jpg?Expires=1719913478&OSSAccessKeyId=LTAI9dplqI3ye7d9&Signature=kEbnWsv9OiFgQP%2BNxPDE8OJ%2BQMo%3D";
     }
 
     interface LoginConstants {

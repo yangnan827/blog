@@ -41,8 +41,8 @@ public class InnerMemberServiceImpl implements InnerMemberService {
 
             return LoginResponse.builder()
                     .memberId(members.getId())
-                    .role(member.getRole())
-                    .token(token)
+                    .role(members.getRole())
+                    .token(tokenMD5)
                     .build();
         }
         throw new BusinessException(ACCOUNT_PASSWORD_WRONG);

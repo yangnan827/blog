@@ -1,7 +1,6 @@
 package com.yangnan.blog.regex;
 
 
-import com.yangnan.blog.utils.StringUtil;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.regex.Matcher;
@@ -264,6 +263,7 @@ public class RegexMatches {
         Matcher m = r.matcher(value);
         return m.find();
     }
+
     public static String appGetBankNo(String bankNo) {
         if (StringUtils.isBlank(bankNo)) {
             return "";
